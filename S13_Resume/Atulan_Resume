@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\moderncvtheme[grey]{classic} 
+
+% character encoding
+\usepackage[utf8]{inputenc} 
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+% Hyperlinks
+\usepackage{hyperref}								% to use hyperlinks
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\firstname{Atulan}
+\familyname{Zaman}
+\address{University of Waterloo}{3A Computer Engineering}    % optional, remove the line if not wanted
+\email{a3zaman@uwaterloo.ca}                      % optional, remove the line if not wanted
+\phone{+1 226 808 0739}                      % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+
+
+\end{document}
