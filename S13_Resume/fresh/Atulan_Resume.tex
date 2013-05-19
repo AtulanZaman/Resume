@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\moderncvtheme[grey]{classic} 
+
+\nopagenumbers{}
+     
+% character encoding
+\usepackage[utf8]{inputenc} 
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+% Hyperlinks
+\usepackage{hyperref}								% to use hyperlinks
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\firstname{Atulan}
+\familyname{Zaman}
+\address{University of Waterloo}{3B Computer Engineering}    % optional, remove the line if not wanted
+\email{a3zaman@uwaterloo.ca}                      % optional, remove the line if not wanted
+\phone{+1 226 808 0739}                      % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Skills Overview}
+\cvitemwithcomment{Programming Languages}{\emph{Java, Scala, C++ and C\#}}{Research, Courses, Personal Projects}
+\cvline{Scripting}{Perl and Bash scripting expertise from designing testing framework with perl source-code for Blue Coat Systems Inc.}
+\cvline{Logic Programming}{Creating predicate logic and closed models using Prolog and Alloy domain specific language for research and personal projects}
+\cvline{Embedded Programming}{Programming kernel level applications with C and C++ and hardware level FPGA designs using VHDL for Altera DE2 and Xilinx ARM Processor}
+\cvline{Web Design}{Using HTML, CSS, XML parsing and PHP with an Apache and MySQL server backend to program features for dynamic corporate website for DataSoft Systems Bangladesh Ltd. \url{http://www.datasoft-bd.com}}
+\cvline{Model Checking \& Algorithms}{Inferencing properties of graph models using formal logic predicates and writing graph algorithms to implement visualization features}
+\cvline{Testing Framework Design}{Industry standard testing framework design experience during 8 months co-op term at Blue Coat Systems \newline{} JUnit test suite creation for research and private projects}
+
+\section{Research Intership Experience}
+\cventry{Jan 2012 - Ongoing}{Undergraduate Research Assistant}{University of Waterloo}{Waterloo, ON}{}{\begin{itemize}
+  \item Working with Dr. Derek Rayside on extending the Java based graph model visualizer for 'Alloy'. \url{http://alloy.mit.edu/alloy/} \item Inferencing model properties such as relation arity, skolemnization and type hierarchy depedency using formal logic and creating visually pleasing layout and draw algorithms \item Extensive use of several java drawing libraries eg. java.awt.*, to implement graphic features and visual simplification techniques \item The visualization project is currently ongoing and is a candidate for publication in journal
+\end{itemize}}
+
+\cventry{May 2010 - Aug 2010}{Research Project Associate}{DataSoft Systems Bangladesh Ltd}{Dhaka, Bangladesh}{}{\begin{itemize}
+  \item Research experience working under Dr. Maqsudul Alam of University of Hawaii on jute
+genome synthesis research, in collaboration with DataSoft, primarily in creating report
+generation tools with Perl and Bash scripting. \item Worked on creation and maintenance of a "Rocks" Linux Cluster Computer with 28 cores, for efficient processing of gene mapping and sorting tools 
+\end{itemize}}
+
+\section{Work Experience}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{Sept 2011 - Jan 2012}{Automation Framework Engineer}{Blue Coat Systems Inc.}{Waterloo, ON}{}{\begin{itemize}
+  \item Individual responsibilities included extending the perl based dynamic automation testing
+framework to create a new real-time web reporting module for the daily automated test
+runs\item Active programming experience in object oriented perl and bash, relational database
+querying using SQL as an extension for the reporting module project \item Interaction with senior programmers in design compatibility analysis and code review \end{itemize}}
+
+\cventry{Jan 2011 - April 2011}{Quality Assurance Engineer}{Blue Coat Systems Inc.}{Waterloo, ON}{}{\begin{itemize}
+  \item Engineering test suites for proxy server appliance using the perl based testing framework. \item Understanding of different network protocols and ad-hoc data propagation to resolve and fix bugs
+\end{itemize}}
+
+\section{Career Interests}
+\cvline{Machine Learning \& AI}{Interested in application of self taught knowledge and exploration of machine learning, artificial intelligence, learning algorithms and principles of cognitive science primarily from reference books and online courses as a hobby} 
+\cvline{Models \& Logic}{Continue current research interest and explore further implementations of Alloy models and their powerful SAT solving engine in broader disciplines, potentially in the area of Artificial Intelligence}
+
+\section{Relevant Academics}
+\cvline{OS and Kernel Programming}{Completion of academic project to program a 'Space Invader Game' on a Xilinx ARM processor using kernel level C and concepts including scheduling, memory management, concurrency and driver development}
+\cvline{Compilers}{Created a compiler and simulator for VHDL using Java. \newline{} Project included implementation of advanced object oriented programming practices such as 'Visitor Pattern' of interface design, and exploring several parser generator tools such as 'Parboiled'}
+%\cvline{VHDL}{Completion of academic project in programming a 'Kirsch Edge Detector' circuit in the Altera DE2 board. \newline{} Project included implementation various optimization techniques for both speed and area of circuitry}
+
+\section{Accolades}
+\cvline{Academic Scholarship}{Received Engineering scholarship \& International Student Scholarship for Academic
+Excellence, 2009}
+\cvline{United Nations}{Awarded the Volunteer of the Year Award 2008/2009 for UN Youth \& Student Association
+ of Bangladesh for successfully managing several awareness campaigns and events and showing exceptional creativity}
+\cvline{Boy Scouts}{Attended International Jamborees in Thailand, Japan and have led a team for International Jamboree in South Korea during high school extra-curricular activities}
+
+\section{Faculty Reference}
+\cvline{Derek Rayside}{Assistant Professor, University of Waterloo \newline{} drayside@uwaterloo.ca \newline \url{https://ece.uwaterloo.ca/~drayside/}}
+
+\end{document}
